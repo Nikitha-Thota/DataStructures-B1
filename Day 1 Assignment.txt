@@ -1,0 +1,17 @@
+Find Time Complexities for Below questions
+
+Question 1
+for(i=1; i<=n; i++)
+{
+    for(j=i; j<=n; j++)
+		printf("Hi");
+}
+Solution: O(n)
+
+Question 2
+for(i=1; i<=n; i*=3)
+{
+    for(j=i; j<=n; j++)
+		printf("Hello");
+}
+Solution: O(n)
